@@ -1,0 +1,142 @@
+.caption
+{
+  width: 40px;
+  height: 40px;
+  background-color:  #FE5D00;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.link 
+{
+  background-color: #161616;
+  width: fit-content;
+  padding: 7px;
+  border-radius: 10px;
+  margin-right: 7px;
+  transition:  background-color 0.5s , transform 0.5s ;
+}
+.link i 
+{
+  color: #737373;
+  transition: color 0.5s;
+}
+.link:hover
+{
+  background-color: #FE5D00;
+  transform: scale(1.1);
+}
+.link:hover i 
+{
+   color: white;
+   position: f;
+}
+.color 
+{
+    color: #737373;
+}
+footer
+{
+  background-color:#0A0A0A !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.221);
+ padding: 30px;
+}
+.title 
+{
+  position: relative;
+}
+.title::after
+{
+  content: "";
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  background-color: #FE5D00;
+}
+.title
+{
+  color: white;
+  margin-right: 40px;
+}
+footer span 
+{
+   color: #737373;
+   margin-bottom: 100px;
+}
+footer li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer h5 
+{
+  color: white;
+  position: relative;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer h5::after
+{
+  content: "";
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  background-color: #FE5D00;
+}
+.btn
+{
+  width: 300px;
+  background-color: #FE5D00;
+  color: white;
+  border-radius: 20px;
+  padding: 16px 32px;
+  border: none;
+  margin-top: 10px;
+}
+.myinput
+{
+  border: none;
+  padding: 10px;
+  margin-left: 50px;
+  width: 300px;
+  border-radius: 10px;
+  background-color:#161616;
+  border: none;
+  margin-bottom: 6px;
+}
+.myinput::placeholder
+{
+  color:#787878;
+  font-size: 15px;
+}
+.myinput:focus
+{
+  border: #F14700 1px solid ;
+  box-shadow: 0 0 0 0.25rem rgba(241, 71, 0, 0.25);
+}
+footer
+{
+background:
+  radial-gradient(
+    circle at center ,
+    rgba(241, 72, 0, 0.14),
+    transparent 60%
+  ),
+  #0b0b0b;
+
+}
+/* #myborder 
+{
+
+  border-top: 10px solid blueviolet;
+  width: 100%;
+} */

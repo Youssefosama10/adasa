@@ -1,0 +1,451 @@
+.stylespancaption
+{
+  width: fit-content;
+  padding: 10px 35px;
+  background-color:#24160B;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  margin-top: 15px;
+  color: orange;
+  
+}
+.stylespancaption::after
+{
+   content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #FF6900;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  border-radius: 50%;
+}
+.stylespancaption::before
+{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #FF6900;
+  position: absolute;
+  top: 18px;
+  right: 7px;
+  border-radius: 50%;
+}
+.styleh2
+{
+color: white;
+font-size: 20px;
+}
+.stylebtn
+{
+  background-color:#F64C00 ;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 20px;
+}
+.styleimg
+{
+  /* background-color: tomato; */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styleimg .simg
+{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: #F89C00;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding:5px 12px;
+  width:70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styleimg img
+{
+  transition: transform 0.5s;
+  border-radius: 20px;
+  width:900px;
+}
+.styleimg img:hover
+{
+  transform: scale(1.1);
+}
+.styleimg i 
+{
+  font-size: 10px;
+  margin-top: 7px;
+}
+.stylespan
+{
+  background-color: #24160B;
+  color: #F64C00;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+.imgafter
+{
+  border-radius: 50%;
+  position: relative;
+  background-color: rebeccapurple;
+  margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.imgafter::before
+{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #F64C00;
+  position: absolute;
+  top: 80%;
+  right:75%;
+  border-radius: 50%;
+}
+.stylestow span
+{
+margin-right: 250px; 
+color: white;
+}
+#card
+{
+    background-color:#161616;
+  border-radius: 20px;
+  /* padding: 40px; */
+}
+#gg
+{
+  margin-top: 120px;
+}
+#hovercard
+{
+  background-color:#161616;
+  border-radius: 15px;
+  /* padding: 20px; */
+  transition: border 0.5s;
+}
+
+#hovercard h2
+{
+  transition: 0.5s;
+}
+#hovercard:hover h2
+{
+  color: #FF6900 !important;
+  /* background-color: saddlebrown; */
+}
+.stylep 
+{
+  color: #8f8c8c;
+  /* margin: 10px; */
+  margin: 0;
+}
+.styles 
+{
+  color: #FF6900 !important;
+}
+@media screen and (max-width:640px) {
+  .styles {
+    display: none;
+  }
+}
+
+
+.stylesection
+{
+  background-color: #0A0A0A;
+  padding: 20px;
+  
+}
+#ma 
+{
+  margin: auto;
+}
+.styleCategories
+{
+  background-color:#281B11;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 15px;
+  color: #F64C00;
+  margin-bottom: 10px;
+}
+.innerCategories
+{
+  background-color: #1a1919;
+  padding: 15px;
+  border-radius: 10px;
+  transition:background-color 0.5s , transform 1s ;
+}
+.innerCategories:hover 
+{
+  background-color: #FF6900;
+  transform: translateY(-8%);
+}
+.sectionCategories
+{
+  background-color: #111111;
+}
+.innerCategories:hover i 
+{
+  color: white;
+}
+.innerCategories:hover .styleCategories
+{
+  background-color: #F64C00;
+}
+.stylecard
+{
+  background-color:#161616;
+  color: white;
+  border-radius: 20px;
+   transition: transform 0.1s;
+}
+
+.scardimg 
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#mycard 
+{
+  background-color: #161616 !important;
+  transition: transform 0.5s;
+}
+#mycard:hover
+{
+transform: translateY(-2%);
+}
+#mycard:hover h4
+{
+  transition: color 0.5s;
+}
+#mycard:hover h4
+{
+  color: #F64C00;
+}
+#myicon 
+{
+  transition: color 0.5s ,  background-color 0.5s ;
+}
+#mycard:hover   #myicon 
+{
+  background-color: #F64C00 !important;
+  color: white;
+}
+#imgcard
+{
+  transition: transform 0.5s;
+}
+#mycard:hover #imgcard
+{
+ transform: scale(1.1);
+}
+.Emailstyle
+{
+  background-color: #FF6100;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 20px;
+  margin: auto;
+}
+.color
+{
+  color: #FAAA20;
+}
+.stylebtntow 
+{
+  background-color: #F14700;
+  color: white;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 16px 32px;
+  border: none;
+  
+}
+#myinput
+{
+  border: none;
+  padding: 15px;
+  margin-left: 50px;
+}
+#myinput::placeholder
+{
+  color:#787878;
+  font-size: 15px;
+}
+#myinput:focus
+{
+  border: #F14700 1px solid ;
+  box-shadow: 0 0 0 0.25rem rgba(241, 71, 0, 0.25);
+}
+
+.inner h6
+{
+  width: fit-content;
+  margin: auto;
+  padding: 10px 35px;
+  background-color:#24160B;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  margin-top: 15px;
+
+}
+.inner h6::after
+{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #FF6900;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border-radius: 50%;
+}
+.inner h6::before
+{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #FF6900;
+  position: absolute;
+  top: 15px;
+  right: 7px;
+  border-radius: 50%;
+}
+.inner 
+{
+  /* background-color: tomato; */
+  text-align: center;
+}
+.inner h1
+{
+  font-size: 60px;
+}
+
+.inner span
+{
+  color: #FA9A1D;
+}
+.inner
+{
+  color: white;
+}
+.inner .btnone
+{
+  background-color: #EC5C0D;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 32px;
+}
+.inner .btnone i
+{
+  font-size: 15px;
+  margin-right: 5px;
+}
+.inner .btntow
+{
+  background-color: transparent;
+    color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 32px;
+  transition: 0.5s;
+}
+.inner .btntow:hover
+{
+  background-color: #fa9a1d27;
+  color: #FA9A1D;
+  border: #FA9A1D solid 1px;
+}
+
+.section
+{
+ background-image: linear-gradient(#26262680 1px, #0000 1px), linear-gradient(90deg, #26262680 1px, #0000 1px);
+background-color: black;
+  background-size: 60px 60px;
+  min-height: 100vh;
+}
+.hamada
+{
+  background-color:#141414;
+  padding: 30px;
+  border-radius: 20px;
+  color: #EC5C0D;
+  text-align: center;
+ 
+}
+.hamada i 
+{
+  font-size: 25px;
+}
+#color 
+{
+  color: #FBB422;
+  font-size: 30px;
+}
+#color2 
+{
+  color: #727171;
+  font-size: 20px;
+}
+
+#bgrow
+{
+  background-color: #161616;
+  color: white; 
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+
+.info {
+  font-size: 14px;
+  color: #888;
+}
+
+.text b {
+  color: #fff;
+  font-weight: 600;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background: #555;
+  border-radius: 50%;
+}
+
+.avatars {
+  margin-right: 8px;
+}
+
+.avatars img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #0d0d0d;
+  margin-right: -8px;
+}
+#card 
+{
+  
+}

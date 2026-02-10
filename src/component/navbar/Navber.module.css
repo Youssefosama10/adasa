@@ -1,0 +1,51 @@
+nav
+{
+  background-color: #161616;
+  padding: 18px !important;
+}
+nav a
+{
+  color: white !important;
+}
+.spantitle
+{
+  color:#ED5D0E;
+}
+.btn 
+{
+  width: 140px;
+  background-color: #ED5D0E;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 16px 32px;
+}
+.seacrhicon
+{
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 8px;
+
+}
+.seacrhicon i
+{
+ transition: color 0.3s;
+}
+.seacrhicon:hover i 
+{
+  color: #ED5D0E;
+}
+nav img
+{
+  margin-left: 5px;
+}
+#stylelink 
+{
+  background-color: #161616;
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  padding: 7px 15px;
+  border-radius: 30px;
+}
