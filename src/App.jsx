@@ -4,7 +4,7 @@ import Home from './component/Home/Home'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import About from './component/About/About'
 import Gallery from './component/Gallery/Gallery'
-import Error from './component/error/Error';
+import Error from './component/Error/Error';
 import Layout from './component/layout/Layout'
 
 
